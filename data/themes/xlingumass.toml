@@ -1,0 +1,32 @@
+#############################
+# DEFAULT UMASS COLOR SCHEME
+#############################
+
+# Edit the colors of your theme by swapping out the hex code (e.g. #5d2a2c)!
+# For UMass' official color palettes (primary and secondary), 
+# please visit https://www.umass.edu/brand/elements/color
+
+# Theme metadata
+name = "xlingumass"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#94795d" #"#94795d" # change color of links
+#primary_text = rgba(0, 0, 255, 1);
+primary_light = "#63666a" # active/moused-over radio items
+primary_dark = "#5d2a2c"  # selected radio items
+
+# Menu
+menu_primary = "#881c1c" # UMass Maroon
+menu_text = "#fff" # white
+menu_text_active = "#a89968"
+menu_title = "#fff"
+
+# Backgrounds
+background = "#EAE7D6"
+home_section_odd = "#EAE7D6" 
+home_section_even = "#dbd3ba"
+
+#text = "#fff" #not sure what this affects yet?

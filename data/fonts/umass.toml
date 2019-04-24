@@ -1,0 +1,18 @@
+# Font style metadata
+name = "umass"
+
+# Browse the other fonts available here:
+# https://developers.google.com/fonts/
+
+# Optional Google font URL
+google_fonts = "Lora:400,700|Open+Sans:400,400italic,700|Roboto+Mono"
+
+# Font families
+heading_font = "Lora"
+body_font = "Open Sans"
+nav_font = "Open Sans"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "18" # size of body font
+font_size_small = "16" # font size of the menu for whatever reason

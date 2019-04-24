@@ -1,41 +1,48 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
+#   The weight parameter defines the order that the links will appear in. 
+#   Note: this does NOT actually change what displays on the page --
+#   it only changes what gets linked to on the navigation bar. 
+
+#[[main]]
+#  name = "Home"
+#  url = "#about"
+#  weight = 10
+
+#[[main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 20
 
 [[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
-
-[[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
-
-[[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Research"
+  url = "#research"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Collaborators"
+  url = "#collaborators" #this doesn't go anywhere yet!!!
+  weight = 32
+
+[[main]]
+  name = "Papers"
+  url = "#publications"
   weight = 40
 
 [[main]]
-  name = "Tutorials"
-  url = "/tutorial/"
+  name = "Teaching" # delete or rename this to whatever makes sense for you
+  url = "tutorial/" #this also doesn't go anywhere yet!!!
   weight = 50
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
+#[[main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+[[main]]
+    name = "CV"
+    url = "files/cv.pdf"
+    weight = 70

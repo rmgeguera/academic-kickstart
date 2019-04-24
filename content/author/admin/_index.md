@@ -1,6 +1,10 @@
 +++
+
+# You can fill this information out if you like everything displayed in one section.
+# This info is what's displayed in the About widget (content/home/about.md) 
+
 # Display name
-name = "Nelson Bighetti"
+name = "Lab Denizen"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -9,14 +13,14 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Person with Neat Interests"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "University of Massachusetts Amherst", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My research interests include all kinds of things, you don't even know."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -44,7 +48,7 @@ user_groups = ["Researchers", "Visitors"]
   year = 2009
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
+  course = "BSc in Bees"
   institution = "Massachusetts Institute of Technology"
   year = 2008
 
@@ -56,32 +60,38 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:tbui@linguist.umass.edu"  
+  # For a direct email link, use "mailto:test@example.org".
+  # or, if you have the Contact widget set to active, use "#contact"
 
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://twitter.com/A_single_bear"
 
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://scholar.google.com/citations?hl=en&user=1FUldd0AAAAJ"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/xlingumass"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[social]]
-#   icon = "cv"
-#   icon_pack = "ai"
-#   link = "files/cv.pdf"
+ [[social]]
+   icon = "cv"
+   icon_pack = "ai"
+   link = "files/cv.pdf"
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Who moved my cheese bavarian bergkase blue castello. Danish when the cheese comes out everybody's happy paneer. Edam port-salut caerphilly swiss pecorino say cheese hard cheese cream cheese. Cut the cheese macaroni cheese.
+
+{{% alert note %}}
+**You can remove this section by setting active to false in `content/home/about.md`. Edit the contents of this section at `content/home/author/admin/index.md`.**
+{{% /alert %}}

@@ -1,13 +1,14 @@
 +++
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
+# See this thread on importing publications from BibTex files: https://github.com/gcushen/hugo-academic/issues/146
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Publications"
 subtitle = ""
 
 [content]
@@ -67,5 +68,5 @@ subtitle = ""
 +++
 
 {{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+**To remove this section, delete `content/home/publications.md` or set `active` to `false`.**
 {{% /alert %}}
