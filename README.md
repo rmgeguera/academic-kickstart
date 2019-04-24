@@ -1,4 +1,4 @@
-# UMass Joint Labs Fork of the [Academic Kickstart](https://sourcethemes.com/academic/) theme for Hugo
+# [UMass Joint Labs Fork](http://people.umass.edu/rgeguera) of the [Academic Kickstart](https://sourcethemes.com/academic/) theme
 
 **Academic** is a Hugo theme created by George Cushen.
 - [**Get Started**](#install)
@@ -22,20 +22,23 @@
 
 ## Install
 
-You'll need [python3](https://www.python.org/downloads/) and [hugo](https://gohugo.io/) to get everything up and running. If you're going to fiddle around with BibTex
+[For more help, see the Academic docs.](https://sourcethemes.com/academic/docs/install/)
 
-You can choose from one of the following four methods to install:
+### Prerequisites
 
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+You'll need [python3](https://www.python.org/downloads/) and [hugo](https://gohugo.io/) to get everything up and running. To check that you have both of those things, open a terminal/windows powershell and type in `python3` and `hugo`. 
 
-Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
+First, clone this repository, or just download the zip and extract it into the folder of your choice so that you get something like `Documents/academic-kickstarter-master` (feel free to rename the folder -- I've renamed my example to `xling-demo`. Then download the [Academic theme](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract it into `Documents/xling-demo/themes/`. Delete the empty folder and rename the one with things actually in it to `academic`.
+
+In a terminal, navigate to your site's root directory (for me, `cd Documents/xling-demo/`) and type in `hugo server`. If all went well, you'll see a message that your web server is available at localhost:1313. Enter that into a web browser, and you should see the exact same demo. 
+
+Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/)!
 
 ## Editing the site
 
-1. INITIAL SETUP. open `_default/config`, `/params`:
+### Initial Setup
+
+1. Open `_default/config`, `/params`:
 
 in `_default/config`:
 - change title of site to your name
@@ -45,20 +48,21 @@ in `_default/params`:
 - add an image to show up if your site is searched for if you want
 - edit contact widget info if you want
 
-2. DECIDE WHAT SECTIONS YOU WANT. open `_default/menus`:
+2. Decide what sections you want. Open `_default/menus`:
 
 If you like having an all-in-one About section, go to `content/author/index` and edit that information.
 Otherwise, open `content/home/about` and change active to false to get rid of it.
 
-3. DEAL WITH PUBLICATIONS. 
+3. Deal with publications/papers. 
 
-- export a bibtex file
+- export a bibtex file of your work
 - download the academic export script using pip: 
 `pip3 install -U academic
 academic import --bibtex path/to/bibtex`
 - deal with any issues where the date is missing/'in prep'
 - decide whether you want to feature any publications or not -- you'll have to change featured to true 
 - also decide whether you want to tag any of this 
+- you can also just create publications on your own -- create a folder 
 
 ## License
 
