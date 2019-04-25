@@ -5,9 +5,9 @@
 #   Note: this does NOT actually change what displays on the page --
 #   it only changes what gets linked to on the navigation bar. 
 
-#[[main]]
-#  name = "Home"
-#  url = "#about"
+# [[main]]
+#  name = "About" # or home/etc
+#  url = "#about" 
 #  weight = 10
 
 #[[main]]
@@ -20,10 +20,10 @@
   url = "#research"
   weight = 30
 
-[[main]]
-  name = "Collaborators"
-  url = "#collaborators" #this doesn't go anywhere yet!!!
-  weight = 32
+# [[main]]
+#   name = "Collaborators"
+#   url = "#collaborators" #this doesn't go anywhere yet!!!
+#   weight = 32
 
 [[main]]
   name = "Papers"

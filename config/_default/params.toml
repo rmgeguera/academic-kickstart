@@ -2,13 +2,13 @@
 # Documentation: https://sourcethemes.com/academic/
 
 # Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
+  # Choose from `xlingumass`, `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
 color_theme = "xlingumass"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
-#   Choose from ``umass`, `default`, `classic`, or `playfair` (copy from themes/data/fonts).
+#   Choose from `umass`, `default`, `classic`, or `playfair`.
 font = "umass"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.

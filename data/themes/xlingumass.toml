@@ -13,10 +13,9 @@ name = "xlingumass"
 light = true
 
 # Primary
-primary = "#94795d" #"#94795d" # change color of links
-#primary_text = rgba(0, 0, 255, 1);
-primary_light = "#63666a" # active/moused-over radio items
-primary_dark = "#5d2a2c"  # selected radio items
+primary = "#997147" #"#94795d" # change color of links
+primary_light = "#a89968" # active/moused-over radio items
+primary_dark = "#a89968"  # selected radio items
 
 # Menu
 menu_primary = "#881c1c" # UMass Maroon
@@ -28,5 +27,3 @@ menu_title = "#fff"
 background = "#EAE7D6"
 home_section_odd = "#EAE7D6" 
 home_section_even = "#dbd3ba"
-
-#text = "#fff" #not sure what this affects yet?

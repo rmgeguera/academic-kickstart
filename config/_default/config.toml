@@ -8,8 +8,8 @@
 title = "XLINGUMASS DEMO"
 
 # The URL of your site. End your URL with a `/` trailing slash!
-# If you're using Github Pages, this will be "https://[USERNAME].github.io/"
-# If you're using UMass's web hosting, "http://people.umass.edu/[UMass NetID]/"
+  # If you're using Github Pages, this will be "https://[USERNAME].github.io/"
+  # If you're using UMass's web hosting, "http://people.umass.edu/[UMass NetID]/"
 baseurl = "http://people.umass.edu/rgeguera/"
 
 # Enter a copyright notice to display in the site footer.

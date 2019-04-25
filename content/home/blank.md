@@ -6,16 +6,16 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 35  # Order that this section will appear.
+weight = 85  # Order that this section will appear.
 
-title = "**Brian Dillon** :whale2: "
-subtitle = ""
+title = "Research"
+subtitle = "Blank widgets are freedom!"
 # emoji cheatsheet: https://www.webfx.com/tools/emoji-cheat-sheet/
 # ":star: :whale: :whale: :whale: :whale2:  :whale:  :whale:  :whale: :star:"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -32,11 +32,11 @@ subtitle = ""
   # gradient_end = "LightSlateGrey"
   
   # Background image.
-   image = "b-eyelab.jpg"  # Name of image in `static/img/`.
-   image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = "b-eyelab.jpg"  # Name of image in `static/img/`.
+  # image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -50,9 +50,10 @@ subtitle = ""
  css_class = ""
 +++
 
-I’m an associate professor in [Linguistics](ling) at the [University of Massachusetts, Amherst](UMass). 
+Across the different projects I am involved in, I seek to understand how linguistic information is cognitively represented, and how those representations support the (seemingly effortless) process of language comprehension. Some of the broad themes of this work include:
 
-I am a psycholinguist, and I study how we encode and manage linguistic information in memory during the course of routine language understanding. In my work I use a range of computational and experimental tools, and I investigate data from a range of different languages. 
+- How is syntactic and discourse structure represented in short-term and long-term memory?
+- How do we access information coded in linguistic and extra-linguistic memory when necessary to support linguistic computation and language comprehension?
+- How does the organization of linguistic information in memory impact decisions speakers make when producing or understanding language?
 
-**My CV is [here](http://blogs.umass.edu/bwdillon/files/2017/09/BWDILLON_CV.pdf). You can find data, material, scripts, and write-ups of current projects on my [Open Science Framework page](asdf). Email me at brian@linguist.umass.edu.**
-
+To see up-to-date information about projects I’m currently involved with, please visit my [Open Science Framework page](link). 

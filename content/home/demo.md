@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "XLingUMass Goes to Town"
-subtitle = "UMass Fork of the Academic theme for Hugo"
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -49,7 +49,8 @@ subtitle = "UMass Fork of the Academic theme for Hugo"
 +++
 
 Welcome to the [xlingumass](https://github.com/xlingumass) fork of the **Academic Kickstart** template! 
-You can push the site to GitHub pages or with the space UMass provides. Deployment docs [here](https://sourcethemes.com/academic/docs/deployment/). 
+
+You can push the site to GitHub pages or with the space UMass provides. You can find the README for this fork [here](https://github.com/rmgeguera/academic-kickstart) and the Academic theme's documentation on hosting/deploying your site [here](https://sourcethemes.com/academic/docs/deployment/).
 
 For reference, here's Academic's [Getting Started](https://sourcethemes.com/academic/docs/get-started/) guide on personalizing the template and [adding your own content](https://sourcethemes.com/academic/docs/managing-content/). 
 
