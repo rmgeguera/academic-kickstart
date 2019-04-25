@@ -48,11 +48,10 @@ subtitle = "UMass Fork of the Academic theme for Hugo"
  css_class = ""
 +++
 
-Welcome to the [xlingumass](https://github.com/xlingumass) fork of the **Academic Kickstart** template!
+Welcome to the [xlingumass](https://github.com/xlingumass) fork of the **Academic Kickstart** template! 
+You can push the site to GitHub pages or with the space UMass provides. Deployment docs [here](https://sourcethemes.com/academic/docs/deployment/). 
 
-For reference, here's Academic's [Getting Started](https://sourcethemes.com/academic/docs/get-started/) and [Page Builder](https://sourcethemes.com/academic/docs/widgets/) guides on personalizing the template and [adding your own content](https://sourcethemes.com/academic/docs/managing-content/). For inspiration, check out [the Markdown files](https://sourcethemes.com/academic/docs/install/#demo-content) which power the [personal demo](https://academic-demo.netlify.com/). 
-
-You can push the site to GitHub pages or with the space UMass provides. Docs [here](https://sourcethemes.com/academic/docs/deployment/).
+For reference, here's Academic's [Getting Started](https://sourcethemes.com/academic/docs/get-started/) guide on personalizing the template and [adding your own content](https://sourcethemes.com/academic/docs/managing-content/). 
 
 - [View the documentation](https://sourcethemes.com/academic/docs/)
 - [Ask a question](http://discuss.gohugo.io/)

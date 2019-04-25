@@ -13,11 +13,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Person with Neat Interests"
+role = "email@linguist.umass.edu"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Massachusetts Amherst", url = "" } ]
+organizations = [ { name = "University of Massachusetts Amherst", url = "http://www.umass.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include all kinds of things, you don't even know."
@@ -90,7 +90,7 @@ user_groups = ["Researchers", "Visitors"]
 
 Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
 
-Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Who moved my cheese bavarian bergkase blue castello. Danish when the cheese comes out everybody's happy paneer. Edam port-salut caerphilly swiss pecorino say cheese hard cheese cream cheese. Cut the cheese macaroni cheese.
+Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Who moved my cheese bavarian bergkase blue castello. Danish when the cheese comes out everybody's happy paneer. Edam port-salut caerphilly swiss pecorino say cheese hard cheese cream cheese. Cut the cheese macaroni cheese.
 
 {{% alert note %}}
 **You can remove this section by setting active to false in `content/home/about.md`. Edit the contents of this section at `content/home/author/admin/index.md`.**

@@ -33,7 +33,7 @@ subtitle = ""
   
   # Background image.
    image = "b-eyelab.jpg"  # Name of image in `static/img/`.
-   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+   image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -54,5 +54,5 @@ I’m an associate professor in [Linguistics](ling) at the [University of Massac
 
 I am a psycholinguist, and I study how we encode and manage linguistic information in memory during the course of routine language understanding. In my work I use a range of computational and experimental tools, and I investigate data from a range of different languages. 
 
-**My CV is [here](http://blogs.umass.edu/bwdillon/files/2017/09/BWDILLON_CV.pdf). You can find data, material, scripts, and write-ups of current projects on my [Open Science Framework page](asdf).**
+**My CV is [here](http://blogs.umass.edu/bwdillon/files/2017/09/BWDILLON_CV.pdf). You can find data, material, scripts, and write-ups of current projects on my [Open Science Framework page](asdf). Reach out at brian@linguist.umass.edu.**
 

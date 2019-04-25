@@ -38,14 +38,15 @@ Then [personalize your new site](https://sourcethemes.com/academic/docs/get-star
 
 ### Initial Setup
 
-1. Open `_default/config`, `/params`:
+1. Open `xling-demo/config/_default/config`, `/params`:
 
 in `_default/config`:
 - change title of site to your name
+- change baseURL to either your github ([username].github.io) or your UMass site
 
 in `_default/params`:
 - change description of site
-- add an image to show up if your site is searched for if you want
+- add an image to show up if your site is searched for if you want (change from ducks.jpg)
 - edit contact widget info if you want
 
 2. Decide what sections you want. Open `_default/menus`:
