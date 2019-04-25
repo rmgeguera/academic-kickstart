@@ -25,19 +25,23 @@ See the demo site [here](http://people.umass.edu/rgeguera). [For more help, see 
 
 ### Prerequisites
 
-You'll need [python3](https://www.python.org/downloads/) and [hugo](https://gohugo.io/getting-started/installing) to get everything up and running. Unless you use homebrew, chocolatey, or scoop, just grab the appropriate binary from [here](https://github.com/gohugoio/hugo/releases). Extract and run it. To check that you have both of those things, open a terminal/windows powershell and type in `python` and `hugo`. 
+You'll need [python3](https://www.python.org/downloads/) and [hugo](https://gohugo.io/getting-started/installing) to get everything up and running. Unless you use homebrew, chocolatey, or scoop, just grab the appropriate binary from [here](https://github.com/gohugoio/hugo/releases). Extract and run it. To check that you have both of those things, open a terminal/windows powershell and type in `python` and `hugo`.
 
 ### Initial setup
 
-1. Clone this repository, or just download the zip and extract it into the folder of your choice so that you get something like `Documents/academic-kickstarter-master` (feel free to rename the folder -- I've renamed my example to `xling-demo`. 
-2. Download the [Academic theme](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract it into `Documents/xling-demo/themes/`. Delete the empty folder and rename the one with things actually in it to `academic`.
-3. In a terminal, navigate to your site's root directory (for me, `cd Documents/xling-demo/`) and type in `hugo server`. If all went well, you'll see a message that your web server is available at localhost:1313. Enter that into a web browser, and you should see the exact same demo. 
+If you use git, the easiest way to do this is to clone it: `git clone https://github.com/rmgeguera/academic-kickstart.git my_site`, `cd my_site`, `git submodule update --init --recursive`.
+
+OR: 
+
+1. Download this fork as a .zip or .tar and extract it into the folder of your choice, e.g. `Desktop/academic-kickstarter-master` (feel free to rename the folder -- I've renamed my example to `xling-demo`). 
+2. Download the [Academic theme](http://people.umass.edu/rgeguera/files/academic.zip) and extract it into `Desktop/xling-demo/`. Rename it to `academic` and move it into `xling-demo/themes`.
+3. In a terminal, navigate to your site's root directory (for me, `cd Desktop/xling-demo/`) and type in `hugo server`. If all went well, you'll see a message that your web server is available at localhost:1313. Enter that into a web browser, and you should see the exact same demo. 
 
 Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/)!
 
 ## Editing the site
 
-The setup of most files which comprise your site will be TOML at the top, which configures whatever content you have after the +++ in Markdown. 
+The setup of most files which comprise your site will be TOML at the top, which configures whatever content you have after the +++ in Markdown. The most critical thing to edit is whether each page is active or not: `active = true` means it'll display on your site, and `false` means it won't show up.
 
 1. Open `xling-demo/config/_default/config`, `/params`:
 
